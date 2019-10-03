@@ -31,7 +31,7 @@ if (isset($_POST['signup_submit'])) {
         addAlert('error', 'Email address already exists!');
         echo "<script>document.location='signup.html'</script>";
     } else {
-        $res = mysqli_query($con, "INSERT INTO users SET firstname = '$firstname', lastname = 'lastname', username = '$username', email = '$email', password = '$password',") or die(mysqli_error($con));
+        $res = mysqli_query($con, "INSERT INTO users SET firstname = '$firstname', lastname = '$lastname', username = '$username', email = '$email', password = '$password',") or die(mysqli_error($con));
         if ($res) {
             addAlert('success', 'Registration Successful! Please Login');
             echo "<script type='text/javascript'>document.location='index.html'</script>";
