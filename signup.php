@@ -3,7 +3,7 @@
 include 'includes/db_connection.php';
 include 'includes/functions.php';
 
-if (isset($_POST['signup'])) {
+if (isset($_POST['signup_submit'])) {
 
     $firstname = $_POST['firstname'];
     $lastname = $_POST['lastname'];
