@@ -2,7 +2,6 @@
 
 require_once('config.php');
 
-// $con = mysqli_connect("localhost", "root", "", "teamcharites");
 $con = mysqli_connect($databaseHost, $databaseUser, $databasePassword, $databaseName);
 
 // Check connection
