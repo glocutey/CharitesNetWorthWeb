@@ -1,9 +1,9 @@
 <?php session_start();
 
+include 'includes/db_connection.php';
+include 'includes/functions.php';
+
 if (isset($_POST['signup'])) {
-    
-    require 'includes/db_connection.php';
-    require 'includes/functions.php';
 
     $firstname = $_POST['firstname'];
     $lastname = $_POST['lastname'];
