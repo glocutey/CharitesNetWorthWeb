@@ -64,7 +64,7 @@
                      <input type="submit" value="NET WORTH CALCULATION">
                     </form>
                     <form action="index.php" method="post">
-                     <input type="submit" value="Home Page">
+                     <input class='btn learn mt-3 mb-5 shadow-lg' type="submit" value="Home Page">
                     </form>
                 </div>
             </div>
