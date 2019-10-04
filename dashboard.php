@@ -37,7 +37,7 @@
 						<a class="nav-link" href="howto.html">TIPS</a>
 					</li>
                     <li class="nav-item">
-                        <a class="nav-link" href="signup.html">SIGN UP</a>
+                        <a class="nav-link" href="logout.php">SIGN OUT</a>
                     </li>                
                 </ul>
             </div>
