@@ -43,6 +43,8 @@
             </div>
         </div>
     </nav>
+
+<div class="container">
 <p>Your new Member Account gives you access to the Assets and Liabilities Entry Page. You will enter the current values of cash and cash equivalents assets, invested assets, use assets, current and long-term liabilities.</p>
 <div>
 <p><strong>Glad you could join us!</strong></p>
