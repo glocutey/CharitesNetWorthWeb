@@ -17,7 +17,7 @@ if (isset($_POST['signup_submit'])) {
     $username = mysqli_real_escape_string($con, $username);
     $email = mysqli_real_escape_string($con, $email);
     $password = mysqli_real_escape_string($con, $password);
-    $password_confirm = mysqli_real_escape_string($con, $pass_confirm);
+    $password_confirm = mysqli_real_escape_string($con, $password_confirm);
     
     //Validation
     //check if email exists
@@ -26,8 +26,8 @@ if (isset($_POST['signup_submit'])) {
     if (!validateEmail($email)) {
         addAlert('error', 'Invalid Email address');
         echo "<script>document.location='signup.html'</script>";
-    } else if (strlen($password) < 5) {
-        addAlert('error', 'Password must be atleast Five (5) characters');
+    } else if (strlen($password) < 6) {
+        addAlert('error', 'Password must be atleast Five (6) characters');
         echo "<script>document.location='signup.html'</script>";
     } else if ($password != $confirm_password) {
         addAlert('error', 'Passwords dont Match');
