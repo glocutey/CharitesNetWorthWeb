@@ -3,7 +3,7 @@ session_start();
 if(isset($_SESSION['login'])){
     header("Location: login.php");
     exit();
-}<!DOCTYPE html>
+}"<!DOCTYPE html>
 <html>
 
 <head>
@@ -48,7 +48,7 @@ if(isset($_SESSION['login'])){
             </div>
         </div>
     </nav>
- <h2>Welcome $firstName $lastName</h2>\n";
+<h2>Welcome $firstName $lastName</h2>\n";
 ?>
 <p>Your new Member Account gives you access to the Assets and Liabilities Entry Page. You will enter the current values of cash and cash equivalents assets, invested assets, use assets, current and long-term liabilities.</p>
 <div>
