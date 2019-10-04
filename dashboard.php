@@ -45,6 +45,19 @@
     </nav>
 
 <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-7 col-lg-6 ">
+                <h1 class='mb-3' id="solar">Are You Ready To Calculate Your Net Worth? <br> Calculate your assets and liabilties</h1>
+                <p class='mb-2 text-justify'><p>Your new Member Account gives you access to the Assets and Liabilities Entry Page. You will enter the current values of cash and cash equivalents assets, invested assets, use assets, current and long-term liabilities.</p>
+            </div>
+
+            <div class="col-md-5 col-lg-6">
+                <img src="css/img/networth.png" id='side' alt="img-fluid">
+            </div>
+        </div>
+
+
+<div class="container">
 <p>Your new Member Account gives you access to the Assets and Liabilities Entry Page. You will enter the current values of cash and cash equivalents assets, invested assets, use assets, current and long-term liabilities.</p>
 <div>
 <p><strong>Glad you could join us!</strong></p>
