@@ -55,20 +55,21 @@
                 <img src="css/img/networth.png" id='side' alt="img-fluid">
             </div>
         </div>
+
+
+        <div class="container text-primary  mb-5">
+            <div class="row">
+                <div class="col-md-12  new">
+                    <form action="calculator.html" method="post">
+                     <input type="submit" value="NET WORTH CALCULATION">
+                    </form>
+                    <form action="index.php" method="post">
+                     <input type="submit" value="Home Page">
+                    </form>
+                </div>
+            </div>
+         </div>
       </div>
-
-
-<div class="container">
-<p>Your new Member Account gives you access to the Assets and Liabilities Entry Page. You will enter the current values of cash and cash equivalents assets, invested assets, use assets, current and long-term liabilities.</p>
-<div>
-<p><strong>Glad you could join us!</strong></p>
-<form action="calculator.html" method="post">
-    <input type="submit" value="NET WORTH CALCULATION">
-</form>
-<form action="index.php" method="post">
-    <input type="submit" value="Home Page">
-</form>
-</div>
 
     <footer>
         <div class="container">
