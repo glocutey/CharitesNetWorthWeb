@@ -2,7 +2,7 @@
 require_once('config.php');
 ?>
 <?php
-if(isset($_POST)){
+if(isset($_POST['signup_submit'])){
 	$firstname = $_POST['firstname'];
 	$lastname = $_POST['lastname'];
 	$username = $_POST['username'];
