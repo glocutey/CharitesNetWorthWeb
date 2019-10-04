@@ -61,7 +61,7 @@
             <div class="row">
                 <div class="col-md-12  new">
                     <form action="calculator.html" method="post">
-                     <input type="submit" value="NET WORTH CALCULATION">
+                     <input class='btn learn mt-3 mb-5 shadow-lg' type="submit" value="NET WORTH CALCULATION">
                     </form>
                     <form action="index.php" method="post">
                      <input class='btn learn mt-3 mb-5 shadow-lg' type="submit" value="Home Page">
