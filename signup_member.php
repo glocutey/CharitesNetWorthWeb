@@ -144,7 +144,7 @@
 					</div>
 				</form>
 
-				<form id="register" action="signup.php" method="post">
+				<form id="register" action="signup_link.php" method="post">
 					<input type="text" name="firstname" placeholder=" Firstname" required>
 					<input type="text" name="lastname" placeholder=" Lastname" required>
 					<input type="text" name="username" placeholder=" Username" required>
