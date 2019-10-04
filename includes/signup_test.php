@@ -7,7 +7,7 @@ if(isset($_POST['signup_submit'])){
 	$lastname = $_POST['lastname'];
 	$username = $_POST['username'];
 	$email = $_POST['email'];
-	$password = sha1($_POST['password']);
+	$password = $_POST['password'];
 
         $sql = "INSERT INTO users (firstname, lastname, username, email, password ) VALUES(?,?,?,?,?)";
 		$stmtinsert = $con->prepare($sql);
